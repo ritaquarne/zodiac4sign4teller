@@ -1,0 +1,95 @@
+// Created by Rita Quarne
+
+import java.util.Scanner;
+public class Program
+{
+	public static void main(String[] args) {
+	
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter your birth month as  number 1 through 12:");
+		int m = in. nextInt();
+		// The dates may change based on what website so, 
+		//I used these dates: https://www.pinterest.com/pin/447123069225401324/
+		System.out.println("Enter your birth day as a number:");
+		int d = in.nextInt();
+		if (m == 1) {
+		    if (d<19) {
+		        System.out.println("You are a an Aquarius♒️");
+		    } else {
+		         System.out.println("You are a Capricorn♑️");
+		    }
+		}else if (m==2){
+		    if(d<19){
+		        System.out.println("You are a Pisces♓️");
+		        
+		    }else {
+		        System.out.println("You are an Aquarius♒️");
+		       
+		    }
+		}else if (m== 3){
+		    if(d>20){
+		        System.out.println("You are an Aries♈️!!");
+		    }else{
+		        System.out.println("You are a Pisces♓️");
+		    }
+		}else if (m== 4){
+		    if(d >20){
+		        System.out.println("You are a Taurus♉️");
+		    }else {
+		        System.out.println("You are an Aries♈️!!");
+		    }
+		}else if (m==5){
+		    if(d >20){
+		        System.out.println("You are a Gemini♊️ :((");
+		    }else{
+		        System.out.println("You are a Taurus♉️");
+		    } 
+		}else if (m==6){
+		    if(d>20){
+		        System.out.println("You are a Cancer♋️");
+		    }else {
+		        System.out.println("You are a Gemini♊️ :((");
+		    }
+		}else if (m==7){
+		    if(d>22){
+		        System.out.println("You are a Leo♌️");
+		    }else {
+		        System.out.println("You are a Cancer♋️");
+		    }
+		}else if (m==8){
+		    if(d>22){
+		        System.out.println("You are a Virgo♍️");
+		    }else{
+		        System.out.println("You are a Cancer♋️");
+		    }
+		}else if (m==9){
+		    if (d>22){
+		        System.out.println("You are a Libra♎️");
+		    }else {
+		        System.out.println("You are a Virgo♍️");
+		    }
+		}else if (m==10){
+		    if (d>22){
+		        System.out.println("You are a Scorpio♏️");
+		    }else {
+		        System.out.println("You are a Libra♎️");
+		    }
+		}else if (m==11){
+		    if (d>22){
+		        System.out.println("You are a Sagittarius♐️");
+		    }else {
+		        System.out.println("You are a Scorpio♏️");
+		    }
+		}else if (m==12){
+		    if(d>21){
+		        System.out.println("You are a Capricorn♑️");
+		    }else{
+		        System.out.println("You are a Sagittarius♐️");
+		    }
+		}else{
+		    System.out.println("Error. Please try again. Use a number 1 through 12");
+		}
+		
+	}
+	
+} 
